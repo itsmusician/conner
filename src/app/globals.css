@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 18vh;
+  color: hsl(var(--twc-base-light));
+  background: hsl(var(--twc-base-dark));
+}
+
+body {
+  color: hsl(var(--twc-base-dark));
+  background: linear-gradient(to bottom, hsl(var(--twc-g0)), hsl(var(--twc-g1)) 20vh, hsl(var(--twc-g2)) 40vh, hsl(var(--twc-g3)) 55vh, hsl(var(--twc-g4)) 70vh, hsl(var(--twc-g5)) 100vh);
+  width: 100vw;
+  height: 120vh;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
