@@ -46,7 +46,7 @@ const Footer = () => {
             width={16}
             height={16}
           />
-          This link takes you to the page you're already on
+          This link takes you to the page youre already on
         </a>
       </footer>
     );
