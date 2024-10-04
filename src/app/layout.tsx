@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import localFont from "next/font/local";
-import Navbar from "./components/navbar";
+import {currentTheme, Navbar} from "./components/navbar";
 import Footer from "./components/footer"
 import "./globals.css";
 
@@ -27,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="defaultTheme">
+    <html lang="en" data-theme="civiltwilight">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
