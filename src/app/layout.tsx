@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import {currentTheme, Navbar} from "./components/navbar";
+import Background from "./components/background"
 import Footer from "./components/footer"
+import Navbar from "./components/navbar";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -9,6 +10,7 @@ const geistSans = localFont({
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
@@ -27,18 +29,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="civiltwilight">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-          <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-            <Navbar />
-          </main>
-          <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-            <Footer />
-          </div>
-        </div>
+      <body>
+        <Background />
+        <Navbar />
         {children}
+        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+          <Footer />
+        </div>
       </body>
     </html>
   );

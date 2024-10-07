@@ -19,6 +19,7 @@ const config: Config = {
       civiltwilight: {
         'base-light': '#FBEEDD',
         'base-dark': '#3C473E',
+        'text-accent': '#E8E0C3',
         'g0': '#624CB9',
         'g1': '#C079AA',
         'g2': '#FFBCA0',
@@ -29,6 +30,7 @@ const config: Config = {
       redshift: {
         'base-light': '#FBEEDD',
         'base-dark': '#534064',
+        'text-accent': '#E8E0C3',
         'g0': '#DF432E',
         'g1': '#F55536',
         'g2': '#F96E3C',
@@ -39,6 +41,7 @@ const config: Config = {
       seafloor: {
         'base-light': '#FBEEDD',
         'base-dark': '#585347',
+        'text-accent': '#E8E0C3',
         'g0': '#033F63',
         'g1': '#28666E',
         'g2': '#7C9885',
@@ -49,6 +52,7 @@ const config: Config = {
       mauve: {
         'base-light': '#FBEEDD',
         'base-dark': '#2E3749',
+        'text-accent': '#E8E0C3',
         'g0': '#373335',
         'g1': '#4C3F47',
         'g2': '#6B5162',
@@ -70,7 +74,7 @@ const config: Config = {
       yuzu: {
         'base-light': '#FBEEDD',
         'base-dark': '#15312C',
-        'text-accent': '#E8E0C3',
+        'text-accent': '#15312C',
         'g0': '#DB961E',
         'g1': '#E9AB2B',
         'g2': '#F7C038',
@@ -90,7 +94,7 @@ const config: Config = {
         'g5': '#FBB3C2',
       }
     }, {
-      defaultTheme: 'civiltwilight'
+      defaultTheme: 'eclipsebloom'
     })
   ],
 };

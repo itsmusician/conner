@@ -1,7 +1,38 @@
 ##            CHANGELOG
 
 
-**0.0.2** - [2024.10.03] A sunny Friday morning
+**0.0.3** - [2024.10.07] A little on prior saturday, more + push on Monday (rainy)
+<br/>
+
+    Navbar:
+    - Added home button
+    - Removed theme button until background CSR is functional
+    - Renamed "Gear" to "Equipment"
+    - Gave its own css class
+    - Made sticky to top of page
+    - About page now opens in the same tab
+
+    Footer:
+	- Added YouTube destination
+    - Added Tiktok destination
+
+    Background:
+    - Separated into its own component for client side rendering (theme changes)
+
+    CSS:
+    - Created general content class for consistent placement of body
+      elements in current structure.
+    - All themes now have a text-accent color
+    - Assigned preliminary text category sizes
+
+    Pages:
+    - Added some new filler text to about
+
+    Meta:
+    - Fixed incorrect date on previous changelog entry (3rd -> 4th)
+
+
+**0.0.2** - [2024.10.04] A sunny Friday morning
 <br/>
 
     Site Adjustments:
