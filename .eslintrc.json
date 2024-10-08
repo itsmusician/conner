@@ -1,8 +1,18 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
+    /*
+    
+    I'm leaving these in because I'm goofy and commonly encounter them
+    as errors and need to get better at not having that happen.
+
+    It's useful for now though to be able to quickly toggle them to
+    try stuff out when I build
+
     "@typescript-eslint/no-unused-vars": "off",
     "prefer-const": "off",
     "@typescript-eslint/no-explicit-any": "off"
+
+    */
   }
 }

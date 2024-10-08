@@ -1,6 +1,24 @@
 ##            CHANGELOG
 
 
+**0.0.4** - [2024.10.08] Tuesday before hurricane milton (sunny :>)
+<br/>
+
+    Page:
+    - Added a blur + fade underneath the navbar for body content for
+      keeping navbar nicely visible
+
+    Navbar:
+    - Items are now centered
+    - Items are now evenly spaced
+    
+    CSS:
+    - Eclipse Bloom theme is now default (I think I currently like it 
+      more... we'll see...)
+    - All themes now have a separate text color for the navbar
+    - Updated navbar text color for the Civil Twilight theme
+
+
 **0.0.3** - [2024.10.07] A little on prior saturday, more + push on Monday (rainy)
 <br/>
 
@@ -17,7 +35,8 @@
     - Added Tiktok destination
 
     Background:
-    - Separated into its own component for client side rendering (theme changes)
+    - Separated into its own component for client side rendering (theme   
+      changes)
 
     CSS:
     - Created general content class for consistent placement of body

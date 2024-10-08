@@ -11,7 +11,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      /* ... */
+      spacing: {
+        'nav': '4vw',
+      }
     },
   },
   plugins: [
@@ -19,7 +21,8 @@ const config: Config = {
       civiltwilight: {
         'base-light': '#FBEEDD',
         'base-dark': '#3C473E',
-        'text-accent': '#E8E0C3',
+        'text-accent': '#3C473E',
+        'text-nav': '#FBEEDD',
         'g0': '#624CB9',
         'g1': '#C079AA',
         'g2': '#FFBCA0',
@@ -31,6 +34,7 @@ const config: Config = {
         'base-light': '#FBEEDD',
         'base-dark': '#534064',
         'text-accent': '#E8E0C3',
+        'text-nav': '#E8E0C3',
         'g0': '#DF432E',
         'g1': '#F55536',
         'g2': '#F96E3C',
@@ -42,6 +46,7 @@ const config: Config = {
         'base-light': '#FBEEDD',
         'base-dark': '#585347',
         'text-accent': '#E8E0C3',
+        'text-nav': '#E8E0C3',
         'g0': '#033F63',
         'g1': '#28666E',
         'g2': '#7C9885',
@@ -53,6 +58,7 @@ const config: Config = {
         'base-light': '#FBEEDD',
         'base-dark': '#2E3749',
         'text-accent': '#E8E0C3',
+        'text-nav': '#E8E0C3',
         'g0': '#373335',
         'g1': '#4C3F47',
         'g2': '#6B5162',
@@ -64,6 +70,7 @@ const config: Config = {
         'base-light': '#FBEEDD',
         'base-dark': '#2E3749',
         'text-accent': '#E8E0C3',
+        'text-nav': '#E8E0C3',
         'g0': '#19231A',
         'g1': '#203423',
         'g2': '#274226',
@@ -75,6 +82,7 @@ const config: Config = {
         'base-light': '#FBEEDD',
         'base-dark': '#15312C',
         'text-accent': '#15312C',
+        'text-nav': '#15312C',
         'g0': '#DB961E',
         'g1': '#E9AB2B',
         'g2': '#F7C038',
@@ -86,6 +94,7 @@ const config: Config = {
         'base-light': '#FBEEDD',
         'base-dark': '#151712',
         'text-accent': '#E8E0C3',
+        'text-nav': '#E8E0C3',
         'g0': '#312C75',
         'g1': '#6E4B9A',
         'g2': '#BD63AE',

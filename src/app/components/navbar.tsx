@@ -2,7 +2,7 @@
 import "../globals.css"
 
 let i = 0;
-let theme: string[] = ["civiltwilight", "redshift", "seafloor", "mauve",
+const theme: string[] = ["civiltwilight", "redshift", "seafloor", "mauve",
     "pine", "yuzu", "eclipsebloom"];
 
 export let currentTheme = "civiltwilight";
@@ -17,15 +17,15 @@ export function changeTheme() {
 const Navbar = () => {   
     return (
         <div className="navbar">
-            <span className="flex items-center flex-col sm:flex-row sm:items-start">
+            <span className="flex justify-center items-center flex-col sm:flex-row sm:items-start gap-x-nav gap-y-nav pt-nav">
                 {/*<button
-                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-base-light))] px-4 py-3"
+                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"
                     onClick={() => changeTheme()}
                 >
                 {currentTheme}
                 </button>*/}
                 <a
-                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-base-light))] px-4 py-3"
+                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"
                     href="/"
                     target="_self"
                     rel="noopener noreferrer"
@@ -33,7 +33,7 @@ const Navbar = () => {
                 Home
                 </a>
                 <a
-                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-base-light))] px-4 py-3"
+                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"
                     href="/about"
                     target="_self"
                     rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const Navbar = () => {
                 About
                 </a>
                 <a
-                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-base-light))] px-4 py-3"
+                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"
                     href="https://www.instagram.com/conner.musician/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -49,7 +49,7 @@ const Navbar = () => {
                 My Work
                 </a>
                 <a
-                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-base-light))] px-4 py-3"
+                    className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"
                     href="https://kit.co/Musical"
                     target="_blank"
                     rel="noopener noreferrer"
