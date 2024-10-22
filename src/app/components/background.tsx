@@ -6,7 +6,10 @@ import "../globals.css";
 
 const Background = () => {
     return (
-        <div className='background'></div>
+        <div>
+            <div className='background'></div>
+            <div className="noise"></div>
+        </div>
     );
 };
 

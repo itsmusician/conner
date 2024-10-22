@@ -17,7 +17,7 @@ export function changeTheme() {
 const Navbar = () => {   
     return (
         <div className="navbar">
-            <span className="flex justify-center items-center flex-col sm:flex-row sm:items-start gap-x-nav gap-y-nav pt-nav">
+            <span className="flex justify-center items-center flex-row gap-x-nav gap-y-nav pt-nav">
                 {/*<button
                     className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"
                     onClick={() => changeTheme()}
@@ -42,11 +42,11 @@ const Navbar = () => {
                 </a>
                 <a
                     className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"
-                    href="https://www.instagram.com/conner.musician/"
-                    target="_blank"
+                    href="/gallery"
+                    target="_self"
                     rel="noopener noreferrer"
                 >
-                My Work
+                Gallery
                 </a>
                 <a
                     className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"

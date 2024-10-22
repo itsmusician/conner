@@ -17,6 +17,12 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const isabellaItalic = localFont({
+  src: "./fonts/isabella-sans.italic.ttf",
+  variable: "--font-isabella-italic",
+  weight: "100 900",
+});
+
 export const metadata: Metadata = {
   title: "Conner",
   description: "hi :)",
@@ -29,7 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="civiltwilight">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${isabellaItalic.variable} antialiased`}>
         <Background />
         <Navbar />
         <div className="gradient-blur">{children}</div>
