@@ -1,5 +1,26 @@
 ## CHANGELOG
 
+**0.0.6** - [2024.10.23] Wednesday midday, vaguely frustrated
+<br/>
+
+    All Pages:
+    - Changed placement + alignment of body content
+
+    Home:
+    - Added placeholder image for future portrait
+
+    Footer:
+    - Made size a little shorter
+    - Added some side items, subject to change
+    
+    CSS:
+    - Disabled forgotten SVG animation causing performance issues
+    - Fixed expected fonts loading as system defaults instead
+    - Created definitions for future portrait
+
+    Noise:
+    - SVG dimensions are smaller
+
 **0.0.5** - [2024.10.22] Tuesday afternoon (warm still even though it's late October... grr...)
 <br/>
 

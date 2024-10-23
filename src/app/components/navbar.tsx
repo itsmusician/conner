@@ -17,7 +17,7 @@ export function changeTheme() {
 const Navbar = () => {   
     return (
         <div className="navbar">
-            <span className="flex justify-center items-center flex-row gap-x-nav gap-y-nav pt-nav">
+            <span className="flex justify-center items-center flex-row gap-x-nav gap-y-nav pt-nav font-[family-name:var(--font-geist-sans)]">
                 {/*<button
                     className="rounded-full flex hover:bg-[hsl(var(--twc-base-dark))] hover:text-[hsl(var(--twc-text-nav))] px-4 py-3"
                     onClick={() => changeTheme()}

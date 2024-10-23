@@ -1,6 +1,6 @@
 export default function Page() {
     return (
-        <div className="content-about">
+        <div className="content-about font-[family-name:var(--font-geist-sans)]">
             <h1>Hi {':)'}</h1>
             <p>
                 <br></br><br></br>

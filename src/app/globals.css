@@ -10,7 +10,7 @@
 .content-gallery {
   width: 64vw;
   position: relative;
-  top: -11vh;
+  top: -10vh;
   margin: auto;
   text-align: center;
   z-index: 0;
@@ -19,16 +19,16 @@
 .content-about {
   width: 64vw;
   position: relative;
-  top: -11vh;
+  top: -10vh;
   margin: auto;
   text-align: left;
   z-index: 0;
 }
 
 .content-home {
-  width: 64vw;
+  width: 73vw;
   position: relative;
-  top: -11vh;
+  top: -10vh;
   margin: auto;
   text-align: left;
   z-index: 0;
@@ -70,7 +70,7 @@ footer {
   right: 0;
   bottom: 0;
   width: 100vw;
-  height: 18vh;
+  height: 17vh;
   color: hsl(var(--twc-base-light));
   background: hsl(var(--twc-base-dark));
 }
@@ -129,6 +129,15 @@ footer {
   position: fixed;
   z-index: 0;
   overflow: hidden;
+}
+
+.portrait {
+  position: absolute;
+  opacity: 50%;
+  filter: blur(1px);
+  mix-blend-mode: difference;
+  right: 10vw;
+  z-index: 100;
 }
 
 @layer utilities {
