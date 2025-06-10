@@ -4,15 +4,14 @@ import "../globals.css"
 const Footer = () => {
     return (
       <footer className="flex flex-wrap items-center justify-around font-[family-name:var(--font-geist-sans)]">
-        <span>{"visitor count soon"}</span>
-        <span className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+        <span className="flex gap-[min(5vw,5vh)] flex-wrap items-center justify-center">
           <a
             className="flex items-center gap-2 hover:underline hover:underline-offset-4"
             href="https://discord.gg/rCwH9jW"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
+            <span className="[&>svg]:size-[5vh]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -29,7 +28,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
+            <span className="[&>svg]:size-[5vh]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -46,7 +45,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
+            <span className="[&>svg]:size-[5vh]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -63,7 +62,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
+            <span className="[&>svg]:size-[5vh]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -80,7 +79,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="[&>svg]:h-5 [&>svg]:w-5">
+            <span className="[&>svg]:size-[5vh]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -92,7 +91,6 @@ const Footer = () => {
             </span>
           </a>
         </span>
-        <span>© 2024 Conner</span>
       </footer>
     );
 };

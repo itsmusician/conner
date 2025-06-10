@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
 const { createThemes } = require('tw-colors');
@@ -11,8 +12,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      size: {
+        'logo': '18vw',
+      },
       spacing: {
         'nav': '4vw',
+      },
+      animation: {
+        'scroll-logos': 'scroll-logos 60s linear infinite',
+      },
+      keyframes: {
+        "scroll-logos": {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)'},
+        }
       }
     },
   },
@@ -22,7 +35,7 @@ const config: Config = {
         'base-light': '#FBEEDD',
         'base-dark': '#3C473E',
         'text-accent': '#3C473E',
-        'text-nav': '#FBEEDD',
+        'text-nav': '#3C473E',
         'g0': '#624CB9',
         'g1': '#C079AA',
         'g2': '#FFBCA0',
@@ -101,9 +114,21 @@ const config: Config = {
         'g3': '#F975A8',
         'g4': '#FD95B2',
         'g5': '#FBB3C2',
-      }
+      },
+      frut: {
+        'base-light': '#FFFFFF',
+        'base-dark': '#010A36',
+        'text-accent': '#010A36',
+        'text-nav': '#010A36',
+        'g0': '#0330FC',
+        'g1': '#68D0FC',
+        'g2': '#FFFFFF',
+        'g3': '#FFFFFF',
+        'g4': '#FFFFFF',
+        'g5': '#FFFFFF',
+      },
     }, {
-      defaultTheme: 'eclipsebloom'
+      defaultTheme: 'frut'
     })
   ],
 };

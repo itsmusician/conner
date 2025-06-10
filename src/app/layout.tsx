@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Background from "./components/background"
-import Footer from "./components/footer"
-import Navbar from "./components/navbar";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -23,6 +21,13 @@ const isabellaItalic = localFont({
   weight: "100 900",
 });
 
+const hanken = localFont({
+  src: "./fonts/HankenGrotesk-VariableFont_wght.ttf",
+  variable: "--font-hanken",
+  weight: "100 900",
+});
+
+
 export const metadata: Metadata = {
   title: "Conner",
   description: "hi :)",
@@ -35,15 +40,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="civiltwilight">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${isabellaItalic.variable} antialiased`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} ${isabellaItalic.variable} ${hanken.variable} antialiased`}>
         <Background />
-          <Navbar />
-        <div className="gradient-blur">
-          {children}
-        </div>
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-          <Footer />
-        </div>
+        {children}
       </body>
     </html>
   );
