@@ -7,7 +7,7 @@ import Footer from "../components/footer";
 export default function Page() {
     return (
         <div>
-            <span className="navbar"><Navbar /></span>
+            <div className="navbar"><Navbar /></div>
             <div className="content-about font-[family-name:var(--font-geist-sans)]">
                 <h1 className="home font-[family-name:var(--font-isabella-italic)]">hello :{">"}</h1>
                 <div className="portrait">
@@ -30,10 +30,19 @@ export default function Page() {
                     <br></br><br></br>
                     Stay tuned for an updated about page and site.
                     <br></br><br></br><br></br>
+
+                    I am an Interdisciplinary creator ready to
+                    make your next project come to life with a
+                    broad range of skills and experience from
+                    many different avenues.
+                    <br></br><br></br>
+                    Stay tuned for an updated about page and site.
+                    <br></br><br></br><br></br>
                 </p>
             </div>
-            <div className="footer-fade"></div>
-            <div className="footer"><Footer /></div>
+            <div className="page-bottom">
+                <div className="footer"><Footer /></div>
+            </div>
         </div>
     );
 }

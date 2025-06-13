@@ -20,11 +20,16 @@ const config: Config = {
       },
       animation: {
         'scroll-logos': 'scroll-logos 60s linear infinite',
+        'bubble': 'bubble 4s linear infinite',
       },
       keyframes: {
         "scroll-logos": {
           from: { transform: 'translateX(0)' },
-          to: { transform: 'translateX(-100%)'},
+          to: { transform: 'translateX(-100%)' },
+        },
+        "bubble": {
+          from: { transform: 'translateY(100vh)' },
+          to: { transform: 'translateY(-100vh)' },
         }
       }
     },
