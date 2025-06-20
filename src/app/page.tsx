@@ -16,8 +16,8 @@ export default function Home() {
                 height="200"
             />
         </span>
-        <span className="navbar-home"><Navbar /></span>
-        <span className="footer-home"><Footer /></span>
+        <div className="navbar-home"><Navbar /></div>
+        <div className="footer-home"><Footer /></div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import "../globals.css"
 const Navbar = () => {   
     return (
         <div>
-            <span className="flex justify-center items-center flex-row gap-x-nav gap-y-nav font-[family-name:var(--font-hanken)] font-bold">
+            <div className="flex justify-center items-center flex-row gap-x-nav gap-y-nav font-[family-name:var(--font-hanken)] font-bold">
                 <a
                     className="rounded-full flex px-4 py-3"
                     href="/"
@@ -37,7 +37,7 @@ const Navbar = () => {
                 >
                 EQUIPMENT
                 </a>
-            </span>
+            </div>
         </div>
     );
 };
