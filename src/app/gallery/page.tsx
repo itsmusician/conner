@@ -1,5 +1,5 @@
 import "../globals.css";
-import Image, { type StaticImageData } from 'next/image';
+//import Image, { type StaticImageData } from 'next/image';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
@@ -8,8 +8,8 @@ import Kilohearts from "../images/kilohearts.svg";
 import Universal from "../images/universal.svg";
 import Imagiro from "../images/imagiro.svg";
 
-const MARQUEE: StaticImageData[] = [Sorcerer, Kilohearts, Universal, Imagiro]
-const ELEMENTS = [...MARQUEE]
+//const MARQUEE: StaticImageData[] = [Sorcerer, Kilohearts, Universal, Imagiro]
+//const ELEMENTS = [...MARQUEE]
 
 export default function Page() {
     return (
