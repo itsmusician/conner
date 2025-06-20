@@ -3,10 +3,10 @@ import "../globals.css";
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
-import Sorcerer from "../images/sorcerer.svg";
-import Kilohearts from "../images/kilohearts.svg";
-import Universal from "../images/universal.svg";
-import Imagiro from "../images/imagiro.svg";
+//import Sorcerer from "../images/sorcerer.svg";
+//import Kilohearts from "../images/kilohearts.svg";
+//import Universal from "../images/universal.svg";
+//import Imagiro from "../images/imagiro.svg";
 
 //const MARQUEE: StaticImageData[] = [Sorcerer, Kilohearts, Universal, Imagiro]
 //const ELEMENTS = [...MARQUEE]
